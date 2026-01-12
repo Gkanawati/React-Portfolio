@@ -1,11 +1,23 @@
 import type { Project } from '../types';
+import fswBarberCover from '../assets/images/fsw-barber-cover.png';
+import igniteShopCover from '../assets/images/ignite-shop-cover.png';
+import igniteCallCover from '../assets/images/ignite-call-cover.png';
+import coffeeDeliveryCover from '../assets/images/coffee-delivery-cover.png';
+import anunxCover from '../assets/images/anunx-cover.png';
+import waiterAppCover from '../assets/images/waiter-app-cover.png';
+import nlwCopaCover from '../assets/images/nlw-copa-cover.png';
+import heyGruposCover from '../assets/images/heygrupos-cover.png';
+import devBlogCover from '../assets/images/devblog-cover.jpg';
+import githubBlogCover from '../assets/images/github-blog-cover.png';
+import foodExplorerCover from '../assets/images/food-explorer-cover.png';
+import devPostCover from '../assets/images/devpost-cover.png';
 
 export const projects: Project[] = [
   {
     id: '1',
     title: 'FSW Barber',
     description: 'descriptions.fsw-barber',
-    image: 'https://private-user-images.githubusercontent.com/87530595/303525397-91dc84d6-4f55-426f-9946-e817f8551efa.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNDg5ODgsIm5iZiI6MTc2ODI0ODY4OCwicGF0aCI6Ii84NzUzMDU5NS8zMDM1MjUzOTctOTFkYzg0ZDYtNGY1NS00MjZmLTk5NDYtZTgxN2Y4NTUxZWZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTEyVDIwMTEyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJjMmI3MmMwMTM5NGI1YmMxY2ZkMDVhZGY2ZjI2ZWE2YTM4ODMwODFkNTAzN2MwM2FiMmU1NGQxMzRiYjQ2YzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.oJrkSueEX6dsn8MlO9sWqSQXIhQETfA0_1Lnw4Q8-DY',
+    image: fswBarberCover,
     tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'TailwindCSS', 'shadcn/ui'],
     demoUrl: 'https://fsw-barber-gkanawati.vercel.app',
     codeUrl: 'https://github.com/Gkanawati/fsw-barber',
@@ -14,7 +26,7 @@ export const projects: Project[] = [
     id: '2',
     title: 'Ignite Shop',
     description: 'descriptions.ignite-shop',
-    image: 'https://private-user-images.githubusercontent.com/87530595/401355029-57167d6e-4c45-42b2-ac98-287b439faf1f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNDkwMjEsIm5iZiI6MTc2ODI0ODcyMSwicGF0aCI6Ii84NzUzMDU5NS80MDEzNTUwMjktNTcxNjdkNmUtNGM0NS00MmIyLWFjOTgtMjg3YjQzOWZhZjFmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTEyVDIwMTIwMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJiOTRlYWUwN2QyMTIzYmFhNGY2Yzk5YjgyZTAwNTkxMWEwZWU0OWNkNmMzMzhiNzhmMTFlMDcwYWU5Y2Y1ODAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9wxUuG_oUMvd5qO2yazdUEQowfel_Cma9B3W1jHdys0',
+    image: igniteShopCover,
     tags: ['Next.js', 'TypeScript', 'Stripe', 'Stitches', 'Radix UI'],
     demoUrl: 'https://ignite-shop-gk.vercel.app',
     codeUrl: 'https://github.com/Gkanawati/ignite-shop-gk',
@@ -23,7 +35,7 @@ export const projects: Project[] = [
     id: '3',
     title: 'Ignite Call',
     description: 'descriptions.ignite-call',
-    image: 'https://private-user-images.githubusercontent.com/87530595/401184844-1629e1fb-523c-4d15-ab69-72b085c9ae9f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNDkwMzUsIm5iZiI6MTc2ODI0ODczNSwicGF0aCI6Ii84NzUzMDU5NS80MDExODQ4NDQtMTYyOWUxZmItNTIzYy00ZDE1LWFiNjktNzJiMDg1YzlhZTlmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTEyVDIwMTIxNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTUzMTBhNzNmZGQyNDA1OTk4ODhhZjNkYmM3Njg0ZDBjNzUzYzY2MDRmYTA5YTA2YWYwMjdlYWI3NDgxNjNlMzgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4cXz6JI2JwpUuPm6y7WHTvY5QMv7vefMHcJjwYpLZRg',
+    image: igniteCallCover,
     tags: ['Next.js', 'TypeScript', 'Prisma', 'Google APIs', 'React Hook Form'],
     demoUrl: 'https://ignite-call-gk.vercel.app',
     codeUrl: 'https://github.com/Gkanawati/ignite-call-gk',
@@ -32,7 +44,7 @@ export const projects: Project[] = [
     id: '4',
     title: 'Coffee Delivery',
     description: 'descriptions.coffee-delivery',
-    image: 'https://private-user-images.githubusercontent.com/87530595/348055948-52a7b996-f19b-4644-b548-93b521dcd9fb.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNDkwNDYsIm5iZiI6MTc2ODI0ODc0NiwicGF0aCI6Ii84NzUzMDU5NS8zNDgwNTU5NDgtNTJhN2I5OTYtZjE5Yi00NjQ0LWI1NDgtOTNiNTIxZGNkOWZiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTEyVDIwMTIyNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU3MGQ5N2VlNjJhMWNiZmZjMzdlNGY5Y2M1ZjA4M2VmMWYwZjQ3MTA5ZDMyMWY4N2QyMjk2ZWM2ODU3NjAzMDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.O3obPOdLGaLrceiNxxBvwoULbZaMcA-HuV8x0aItx8o',
+    image: coffeeDeliveryCover,
     tags: ['React', 'TypeScript', 'Styled Components', 'React Hook Form'],
     demoUrl: 'https://coffe-delivery-gk.netlify.app',
     codeUrl: 'https://github.com/Gkanawati/Coffee-Delivery',
@@ -41,7 +53,7 @@ export const projects: Project[] = [
     id: '5',
     title: 'Anunx',
     description: 'descriptions.anunx',
-    image: 'https://user-images.githubusercontent.com/87530595/193017329-fab75a18-7410-461b-9bcf-1ef4158c8fdb.png',
+    image: anunxCover,
     tags: ['Next.js', 'MongoDB', 'NextAuth', 'Material-UI', 'Cloudinary'],
     demoUrl: 'https://anunx-gk.vercel.app',
     codeUrl: 'https://github.com/Gkanawati/Anunx',
@@ -50,55 +62,57 @@ export const projects: Project[] = [
     id: '6',
     title: 'Waiter App',
     description: 'descriptions.waiter-app',
-    image: 'https://user-images.githubusercontent.com/87530595/204069637-770d8300-9538-47e4-a089-e8c0a669cfc8.png',
+    image: waiterAppCover,
     tags: ['TypeScript', 'Node.js', 'MongoDB', 'React', 'Express'],
     codeUrl: 'https://github.com/Gkanawati/Waiter-App',
   },
   {
     id: '7',
+    title: 'Food Explorer',
+    description: 'descriptions.food-explorer',
+    image: foodExplorerCover,
+    tags: ['Next.js', 'JavaScript', 'Node.js', 'MongoDB'],
+    demoUrl: 'https://food-explorer-gk.netlify.app/',
+    codeUrl: 'https://github.com/Gkanawati/Food-Explorer-Frontend',
+  },
+  {
+    id: '8',
     title: 'NLW Copa',
     description: 'descriptions.nlw-copa',
-    image: 'https://user-images.githubusercontent.com/87530595/200597599-83457d51-db55-4e44-8ddb-007600ec7e74.png',
+    image: nlwCopaCover,
     tags: ['TypeScript', 'React', 'Node.js', 'Prisma'],
     codeUrl: 'https://github.com/Gkanawati/NLW-copa',
   },
   {
-    id: '8',
+    id: '9',
     title: 'HeyGrupos',
     description: 'descriptions.heygrupos',
-    image: 'https://user-images.githubusercontent.com/87530595/194385333-e5907cc1-1a5e-4f7e-b100-3a36e8fd5154.png',
+    image: heyGruposCover,
     tags: ['JavaScript', 'React Native', 'Firebase', 'Real-time'],
     codeUrl: 'https://github.com/Gkanawati/HeyGrupos',
   },
   {
-    id: '9',
+    id: '10',
     title: 'DevBlog',
     description: 'descriptions.devblog',
-    image: 'https://user-images.githubusercontent.com/87530595/174454387-2b11d7cb-252f-4572-bfdd-59b69dc5cd59.jpg',
+    image: devBlogCover,
     tags: ['React Native', 'TypeScript', 'Strapi', 'CMS'],
     codeUrl: 'https://github.com/Gkanawati/DevBlog',
   },
   {
-    id: '10',
+    id: '11',
     title: 'Github Blog',
     description: 'descriptions.github-blog',
-    image: 'https://private-user-images.githubusercontent.com/87530595/353254896-cf3d4b52-4fef-45f2-acb7-bb7eb20c8345.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNDkyMDksIm5iZiI6MTc2ODI0ODkwOSwicGF0aCI6Ii84NzUzMDU5NS8zNTMyNTQ4OTYtY2YzZDRiNTItNGZlZi00NWYyLWFjYjctYmI3ZWIyMGM4MzQ1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTEyVDIwMTUwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTVkNTE0ZjkwMWUwYTI0MjcyYmRkM2FlNmNhNzc4MjRhNjg3YjAyNzUyYTBmZGIwZDJlODk2Zjk4OWM0NGFhOTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.YH362vzUB9G4QX0GVZk341oAwzWZk03JesBXc-AZRBc',
+    image: githubBlogCover,
     tags: ['TypeScript', 'React', 'GitHub API', 'Styled Components'],
     codeUrl: 'https://github.com/Gkanawati/Github-Blog',
   },
-  {
-    id: '11',
-    title: 'Food Explorer',
-    description: 'descriptions.food-explorer',
-    image: 'https://private-user-images.githubusercontent.com/87530595/347237150-851f1d25-5316-4fee-9c11-1e44eabac7bd.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjgyNDkyMTIsIm5iZiI6MTc2ODI0ODkxMiwicGF0aCI6Ii84NzUzMDU5NS8zNDcyMzcxNTAtODUxZjFkMjUtNTMxNi00ZmVlLTljMTEtMWU0NGVhYmFjN2JkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTEyVDIwMTUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU1NTM3NzFiMjE4OGFhZTFkYTY2NDVjMmYzYWQ0MGZmODA2MDdmZGNjNTQ5ZWUyYzkwYjEwMjZiMmNiNDVkMzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.TyX7KNx0CaY07M6fbDC-tROqXN0tkiQJKDYOaH-5MFI',
-    tags: ['Next.js', 'JavaScript', 'Node.js', 'MongoDB'],
-    codeUrl: 'https://github.com/Gkanawati/Food-Explorer-Frontend',
-  },
+
   {
     id: '12',
     title: 'DevPost',
     description: 'descriptions.devpost',
-    image: 'https://user-images.githubusercontent.com/87530595/194374076-356c6e13-3989-4781-80cc-3c878bd5a036.png',
+    image: devPostCover,
     tags: ['React Native', 'TypeScript', 'Firebase', 'Expo'],
     codeUrl: 'https://github.com/Gkanawati/DevPost',
   },
