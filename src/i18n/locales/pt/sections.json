@@ -12,6 +12,29 @@
     "frontend": "Frontend",
     "cloudDevops": "Cloud & DevOps"
   },
+  "experiences": {
+    "title": "Minha <1>Experiência</1>",
+    "cashme": {
+      "role": "Desenvolvedor Back End",
+      "period": "Fev 2025 - Presente",
+      "description": "Atuação no desenvolvimento de microsserviços escaláveis utilizando Java e Spring Boot, dentro do contexto de pós-venda de operações financeiras. Responsável por integrações críticas com APIs bancárias, serviços de assinatura eletrônica e reconhecimento facial, além da geração automatizada de contratos, relatórios e minutas jurídicas."
+    },
+    "sempher": {
+      "role": "Desenvolvedor Web Front End",
+      "period": "Mar 2024 - Fev 2025 · 1 ano",
+      "description": "Desenvolvedor Web - React + Material UI. Integração com APIs e construção de interfaces."
+    },
+    "hubcontrol": {
+      "role": "Desenvolvedor Web FullStack",
+      "period": "Fev 2023 - Mai 2024 · 1 ano 4 meses",
+      "description": "Desenvolvimento full-stack com foco em aplicações web, trabalhando com CakePHP, RabbitMQ e tecnologias modernas."
+    },
+    "wi7h": {
+      "role": "Desenvolvedor da Web",
+      "period": "Ago 2021 - Mar 2022 · 8 meses",
+      "description": "Desenvolvedor Web. Responsável por desenvolver e dar manutenção de Sistemas, Sites, Aplicativos mobile e Ecommerce."
+    }
+  },
   "projects": {
     "title": "Meus <1>Projetos</1>"
   },

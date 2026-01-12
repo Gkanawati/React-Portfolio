@@ -41,7 +41,7 @@ export interface Theme {
 export const lightTheme: Theme = {
   colors: {
     primary: '#2563eb',
-    secondary: '#7c3aed',
+    secondary: '#173f96',
     background: '#ffffff',
     surface: '#f8fafc',
     text: '#1e293b',
@@ -82,7 +82,7 @@ export const darkTheme: Theme = {
   ...lightTheme,
   colors: {
     primary: '#3b82f6',
-    secondary: '#8b5cf6',
+    secondary: '#173f96',
     background: '#0f172a',
     surface: '#1e293b',
     text: '#f1f5f9',

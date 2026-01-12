@@ -6,6 +6,8 @@ export const Container = styled.div`
   padding: 0 ${(props) => props.theme.spacing.lg};
 
   @media (max-width: ${(props) => props.theme.breakpoints.mobile}) {
+    width: 100%;
+    min-width: 0;
     padding: 0 ${(props) => props.theme.spacing.md};
   }
 `;

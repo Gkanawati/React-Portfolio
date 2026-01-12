@@ -12,6 +12,29 @@
     "frontend": "Frontend",
     "cloudDevops": "Cloud & DevOps"
   },
+  "experiences": {
+    "title": "My <1>Experience</1>",
+    "cashme": {
+      "role": "Backend Developer",
+      "period": "Feb 2025 - Present",
+      "description": "Development of scalable microservices using Java and Spring Boot, within the context of after-sales for financial operations. Responsible for critical integrations with banking APIs, electronic signature and facial recognition services, as well as automated generation of contracts, reports and legal documents."
+    },
+    "sempher": {
+      "role": "Frontend Web Developer",
+      "period": "Mar 2024 - Feb 2025 · 1 year",
+      "description": "Web Developer - React + Material UI. Integration with APIs and interface construction."
+    },
+    "hubcontrol": {
+      "role": "FullStack Web Developer",
+      "period": "Feb 2023 - May 2024 · 1 year 4 months",
+      "description": "Full-stack development with focus on web applications, working with CakePHP, RabbitMQ and modern technologies."
+    },
+    "wi7h": {
+      "role": "Web Developer",
+      "period": "Aug 2021 - Mar 2022 · 8 months",
+      "description": "Web Developer. Responsible for developing and maintaining Systems, Websites, Mobile Applications and E-commerce."
+    }
+  },
   "projects": {
     "title": "My <1>Projects</1>"
   },
