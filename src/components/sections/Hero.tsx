@@ -17,8 +17,8 @@ export const Hero = () => {
           <Greeting>Hi, I'm</Greeting>
           <Title>Gabriel Kanawati</Title>
           <Subtitle>
-            Full Stack Developer passionate about creating beautiful and
-            functional web experiences
+            FullStack developer passionate about building scalable, elegant
+            solutions
           </Subtitle>
           <ButtonGroup>
             <Button as='a' href='#projects'>

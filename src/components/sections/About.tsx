@@ -18,9 +18,8 @@ const backendSkills = [
   'Node.js',
   'PostgreSQL',
   'RabbitMQ',
-  'CakePHP',
-  'Next.js',
   'Ruby on Rails',
+  'CakePHP',
 ];
 
 const frontendSkills = [
@@ -45,11 +44,7 @@ export const About = () => {
         <Content>
           <Bio>
             <BioText>
-              Full stack developer passionate about creating elegant solutions
-              to complex problems. With experience in modern web technologies, I
-              focus on building scalable, user-friendly applications that make a
-              difference. When I'm not coding, you'll find me exploring new
-              technologies and contributing to open-source projects.
+              Full-stack developer specializing in backend development, currently working at CashMe with microservices, payment APIs, and banking integrations. Passionate about building scalable, user-friendly applications using modern technologies. I believe in "Never Stop Learning" and constantly explore new tools and frameworks to deliver elegant solutions to complex problems. When I'm not coding, you'll find me contributing to open-source projects and sharing knowledge with the developer community.
             </BioText>
           </Bio>
 
