@@ -1,5 +1,6 @@
 import { GithubLogo, LinkedinLogo, Envelope } from '@phosphor-icons/react';
 import { Container } from '../common/Container';
+import { useTranslation, Trans } from 'react-i18next';
 import {
   FooterWrapper,
   FooterContent,
@@ -10,6 +11,9 @@ import {
 } from './styles/Footer.styles';
 
 export const Footer = () => {
+  const { t } = useTranslation('common');
+  const currentYear = new Date().getFullYear();
+
   return (
     <FooterWrapper>
       <Container>
@@ -40,12 +44,13 @@ export const Footer = () => {
           </SocialLinks>
 
           <Copyright>
-            &copy; {new Date().getFullYear()} Gabriel Kanawati. All rights
-            reserved.
+            {t('footer.copyright', { year: currentYear })}
           </Copyright>
 
           <Badge>
-            Built with <span>React</span> + <span>TypeScript</span>
+            <Trans i18nKey="footer.builtWith" ns="common">
+              Built with <span>React</span> + <span>TypeScript</span>
+            </Trans>
           </Badge>
         </FooterContent>
       </Container>

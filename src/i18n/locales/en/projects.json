@@ -1,0 +1,16 @@
+{
+  "descriptions": {
+    "fsw-barber": "💈✂️ Complete application for booking barbershop services, with authentication, schedule management and payment integration.",
+    "anunx": "📣🛒 Complete online classifieds platform where users can create and publish ads instantly with image upload integration.",
+    "ignite-shop": "🛒🤑 Modern e-commerce developed with Next.js using SSG, SSR and Stripe integration for payment processing.",
+    "ignite-call": "🎯📅 Complete scheduling system with Google login and Google Calendar integration to efficiently manage appointments.",
+    "coffee-delivery": "☕️ Shopping cart application for a fictional coffee shop with complete order management and delivery calculation.",
+    "waiter-app": "Complete order management system for bars and restaurants with intuitive interface and real-time control.",
+    "nlw-copa": "⚽ Create your betting pool! Application to create and manage World Cup betting pools.",
+    "heygrupos": "📱💬 Cloud-based instant messaging app with user account creation and real-time group conversations.",
+    "devpost": "📸📱 Complete social network for mobile devices with real-time interactions, posts, likes and comments.",
+    "github-blog": "Modern blog that leverages GitHub issues as content source, with search and post listing.",
+    "food-explorer": "Complete digital menu for restaurants with frontend and backend, allowing navigation, search and dish orders.",
+    "devblog": "React Native app for tech posts and news using Strapi as headless CMS."
+  }
+}

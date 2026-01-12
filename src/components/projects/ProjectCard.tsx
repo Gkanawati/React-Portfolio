@@ -1,4 +1,5 @@
 import { GithubLogo, Globe } from '@phosphor-icons/react';
+import { useTranslation } from 'react-i18next';
 import type { Project } from '../../types';
 import {
   CardWrapper,
@@ -20,8 +21,14 @@ interface ProjectCardProps {
 const DEFAULT_IMAGE = 'https://via.placeholder.com/200';
 
 export const ProjectCard = ({ project }: ProjectCardProps) => {
+  const { t } = useTranslation();
   const imageUrl = project.image || DEFAULT_IMAGE;
   const hasImage = !!project.image;
+
+  // Check if description is a translation key
+  const description = project.description.startsWith('descriptions.')
+    ? t(project.description, { ns: 'projects' })
+    : project.description;
 
   return (
     <CardWrapper>
@@ -35,7 +42,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
 
       <CardContent>
         <Title>{project.title}</Title>
-        <Description>{project.description}</Description>
+        <Description>{description}</Description>
 
         <Tags>
           {project.tags.map((tag) => (
@@ -51,7 +58,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               rel='noopener noreferrer'
             >
               <Globe size={16} weight='duotone' />
-              Demo
+              {t('buttons.demo', { ns: 'common' })}
             </Link>
           )}
           {project.codeUrl && (
@@ -61,7 +68,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
               rel='noopener noreferrer'
             >
               <GithubLogo size={16} weight='duotone' />
-              Code
+              {t('buttons.code', { ns: 'common' })}
             </Link>
           )}
         </Links>

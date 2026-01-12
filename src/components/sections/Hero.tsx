@@ -1,5 +1,6 @@
 import { Container } from '../common/Container';
 import { Button } from '../common/Button';
+import { useTranslation } from 'react-i18next';
 import {
   Section,
   Content,
@@ -10,22 +11,21 @@ import {
 } from './styles/Hero.styles';
 
 export const Hero = () => {
+  const { t } = useTranslation('sections');
+
   return (
     <Section id='home'>
       <Container>
         <Content>
-          <Greeting>Hi, I'm</Greeting>
-          <Title>Gabriel Kanawati</Title>
-          <Subtitle>
-            FullStack developer passionate about building scalable, elegant
-            solutions
-          </Subtitle>
+          <Greeting>{t('hero.greeting')}</Greeting>
+          <Title>{t('hero.name')}</Title>
+          <Subtitle>{t('hero.subtitle')}</Subtitle>
           <ButtonGroup>
             <Button as='a' href='#projects'>
-              View Projects
+              {t('buttons.viewProjects', { ns: 'common' })}
             </Button>
             <Button as='a' href='#contact' $variant='outline'>
-              Contact Me
+              {t('buttons.contactMe', { ns: 'common' })}
             </Button>
           </ButtonGroup>
         </Content>

@@ -1,5 +1,6 @@
 import { GithubLogo, LinkedinLogo, Envelope } from '@phosphor-icons/react';
 import { Container } from '../common/Container';
+import { useTranslation, Trans } from 'react-i18next';
 import {
   Section,
   SectionTitle,
@@ -13,15 +14,17 @@ import {
 } from './styles/Contact.styles';
 
 export const Contact = () => {
+  const { t } = useTranslation('sections');
+
   return (
     <Section id='contact'>
       <Container>
         <SectionTitle>
-          Get In <span>Touch</span>
+          <Trans i18nKey="contact.title" ns="sections">
+            Get In <span>Touch</span>
+          </Trans>
         </SectionTitle>
-        <Subtitle>
-          Feel free to reach out for collaborations or just to connect!
-        </Subtitle>
+        <Subtitle>{t('contact.subtitle')}</Subtitle>
 
         <ContactCard>
           <ContactMethods>
@@ -29,7 +32,7 @@ export const Contact = () => {
               <IconWrapper>
                 <Envelope size={32} weight='duotone' />
               </IconWrapper>
-              <ContactLabel>Email</ContactLabel>
+              <ContactLabel>{t('contact.email')}</ContactLabel>
               <ContactLink href='mailto:gabrielkanawati3@gmail.com'>
                 gabrielkanawati3@gmail.com
               </ContactLink>
@@ -39,9 +42,9 @@ export const Contact = () => {
               <IconWrapper>
                 <GithubLogo size={32} weight='duotone' />
               </IconWrapper>
-              <ContactLabel>GitHub</ContactLabel>
+              <ContactLabel>{t('contact.github')}</ContactLabel>
               <ContactLink
-                href='https://github.com'
+                href='https://github.com/gkanawati'
                 target='_blank'
                 rel='noopener noreferrer'
               >
@@ -53,13 +56,13 @@ export const Contact = () => {
               <IconWrapper>
                 <LinkedinLogo size={32} weight='duotone' />
               </IconWrapper>
-              <ContactLabel>LinkedIn</ContactLabel>
+              <ContactLabel>{t('contact.linkedin')}</ContactLabel>
               <ContactLink
                 href='https://www.linkedin.com/in/gabrielkanawati/'
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                linkedin.com/in/yourprofile
+                linkedin.com/in/gabrielkanawati
               </ContactLink>
             </ContactMethod>
           </ContactMethods>

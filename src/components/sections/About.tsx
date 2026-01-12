@@ -1,4 +1,5 @@
 import { Container } from '../common/Container';
+import { useTranslation, Trans } from 'react-i18next';
 import {
   Section,
   SectionTitle,
@@ -34,38 +35,40 @@ const frontendSkills = [
 const cloudDevOpsSkills = ['AWS SQS', 'AWS S3', 'API Gateway', 'Docker', 'Git'];
 
 export const About = () => {
+  const { t } = useTranslation('sections');
+
   return (
     <Section id='about'>
       <Container>
         <SectionTitle>
-          About <span>Me</span>
+          <Trans i18nKey="about.title" ns="sections">
+            About <span>Me</span>
+          </Trans>
         </SectionTitle>
 
         <Content>
           <Bio>
-            <BioText>
-              Full-stack developer specializing in backend development, currently working at CashMe with microservices, payment APIs, and banking integrations. Passionate about building scalable, user-friendly applications using modern technologies. I believe in "Never Stop Learning" and constantly explore new tools and frameworks to deliver elegant solutions to complex problems. When I'm not coding, you'll find me contributing to open-source projects and sharing knowledge with the developer community.
-            </BioText>
+            <BioText>{t('about.bio')}</BioText>
           </Bio>
 
           <SkillsCard>
-            <SkillsTitle>Skills & Technologies</SkillsTitle>
+            <SkillsTitle>{t('about.skillsTitle')}</SkillsTitle>
             <LineSeparator />
-            <SkillsTitle>Backend</SkillsTitle>
+            <SkillsTitle>{t('about.backend')}</SkillsTitle>
             <SkillsGrid>
               {backendSkills.map((skill) => (
                 <SkillItem key={skill}>{skill}</SkillItem>
               ))}
             </SkillsGrid>
             <br />
-            <SkillsTitle>Frontend</SkillsTitle>
+            <SkillsTitle>{t('about.frontend')}</SkillsTitle>
             <SkillsGrid>
               {frontendSkills.map((skill) => (
                 <SkillItem key={skill}>{skill}</SkillItem>
               ))}
             </SkillsGrid>
             <br />
-            <SkillsTitle>Cloud & DevOps</SkillsTitle>
+            <SkillsTitle>{t('about.cloudDevops')}</SkillsTitle>
             <SkillsGrid>
               {cloudDevOpsSkills.map((skill) => (
                 <SkillItem key={skill}>{skill}</SkillItem>

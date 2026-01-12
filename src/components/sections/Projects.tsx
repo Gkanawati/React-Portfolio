@@ -1,6 +1,7 @@
 import { Container } from '../common/Container';
 import { ProjectCard } from '../projects/ProjectCard';
 import { projects } from '../../data/projects';
+import { Trans } from 'react-i18next';
 import { Section, SectionTitle, ProjectsGrid } from './styles/Projects.styles';
 
 export const Projects = () => {
@@ -8,7 +9,9 @@ export const Projects = () => {
     <Section id='projects'>
       <Container>
         <SectionTitle>
-          My <span>Projects</span>
+          <Trans i18nKey="projects.title" ns="sections">
+            My <span>Projects</span>
+          </Trans>
         </SectionTitle>
 
         <ProjectsGrid>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { List, X } from '@phosphor-icons/react';
+import { useTranslation } from 'react-i18next';
 import {
   Nav,
   NavLink,
@@ -7,15 +8,16 @@ import {
   MobileMenu,
 } from './styles/Navigation.styles';
 
-const navItems = [
-  { href: '#home', label: 'Home' },
-  { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#contact', label: 'Contact' },
-];
-
 export const Navigation = () => {
+  const { t } = useTranslation('common');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const navItems = [
+    { href: '#home', label: t('nav.home') },
+    { href: '#about', label: t('nav.about') },
+    { href: '#projects', label: t('nav.projects') },
+    { href: '#contact', label: t('nav.contact') },
+  ];
 
   const handleLinkClick = () => {
     setMobileMenuOpen(false);

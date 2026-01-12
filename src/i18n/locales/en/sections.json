@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Gabriel Kanawati",
+    "subtitle": "FullStack developer passionate about building scalable, elegant solutions"
+  },
+  "about": {
+    "title": "About <1>Me</1>",
+    "bio": "Full-stack developer specializing in backend development, currently working at CashMe with microservices, payment APIs, and banking integrations. Passionate about building scalable, user-friendly applications using modern technologies. I believe in \"Never Stop Learning\" and constantly explore new tools and frameworks to deliver elegant solutions to complex problems. When I'm not coding, you'll find me contributing to open-source projects and sharing knowledge with the developer community.",
+    "skillsTitle": "Skills & Technologies",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "cloudDevops": "Cloud & DevOps"
+  },
+  "projects": {
+    "title": "My <1>Projects</1>"
+  },
+  "contact": {
+    "title": "Get In <1>Touch</1>",
+    "subtitle": "Feel free to reach out for collaborations or just to connect!",
+    "email": "Email",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

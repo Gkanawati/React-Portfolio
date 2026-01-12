@@ -26,3 +26,9 @@ export const RightSection = styled.div`
   align-items: center;
   gap: ${(props) => props.theme.spacing.lg};
 `;
+
+export const ToggleGroup = styled.div`
+  display: flex;
+  align-items: center;
+  gap: ${(props) => props.theme.spacing.sm};
+`;

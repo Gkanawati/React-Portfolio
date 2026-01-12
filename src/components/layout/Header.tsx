@@ -1,10 +1,12 @@
 import { Container } from '../common/Container';
 import { Navigation } from './Navigation';
 import { ThemeToggle } from '../theme/ThemeToggle';
+import { LanguageToggle } from '../language/LanguageToggle';
 import {
   HeaderWrapper,
   HeaderContent,
   RightSection,
+  ToggleGroup,
 } from './styles/Header.styles';
 
 export const Header = () => {
@@ -14,7 +16,10 @@ export const Header = () => {
         <HeaderContent>
           <RightSection>
             <Navigation />
-            <ThemeToggle />
+            <ToggleGroup>
+              <LanguageToggle />
+              <ThemeToggle />
+            </ToggleGroup>
           </RightSection>
         </HeaderContent>
       </Container>

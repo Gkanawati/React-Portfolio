@@ -1,0 +1,16 @@
+{
+  "descriptions": {
+    "fsw-barber": "💈✂️ Aplicação completa para agendamento de serviços em barbearias, com autenticação, gerenciamento de horários e integração de pagamentos.",
+    "anunx": "📣🛒 Plataforma completa de anúncios online onde usuários podem criar e publicar classificados instantaneamente com integração de upload de imagens.",
+    "ignite-shop": "🛒🤑 E-commerce moderno desenvolvido com Next.js utilizando SSG, SSR e integração com Stripe para processamento de pagamentos.",
+    "ignite-call": "🎯📅 Sistema completo de agendamento com login Google e integração com Google Calendar para gerenciar compromissos de forma eficiente.",
+    "coffee-delivery": "☕️ Aplicação de carrinho de compras para uma cafeteria fictícia com gerenciamento completo de pedidos e cálculo de entrega.",
+    "waiter-app": "Sistema completo de gerenciamento de pedidos para bares e restaurantes com interface intuitiva e controle em tempo real.",
+    "nlw-copa": "⚽ Crie o seu grupo de Bolão! Aplicação para criar e gerenciar pools de apostas para a Copa do Mundo.",
+    "heygrupos": "📱💬 Aplicativo de mensagens instantâneas baseado em nuvem com criação de contas de usuários e conversas em grupo em tempo real.",
+    "devpost": "📸📱 Rede social completa para dispositivos móveis com interações em tempo real, posts, curtidas e comentários.",
+    "github-blog": "Blog moderno que aproveita as issues do GitHub como fonte de conteúdo, com busca e listagem de posts.",
+    "food-explorer": "Menu digital completo para restaurantes com frontend e backend, permitindo navegação, busca e pedidos de pratos.",
+    "devblog": "Aplicativo React Native para posts e notícias sobre tecnologia usando Strapi como CMS headless."
+  }
+}
