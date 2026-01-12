@@ -16,21 +16,31 @@ export const CardWrapper = styled.div`
   }
 `;
 
-export const ImageWrapper = styled.div`
+export const ImageWrapper = styled.div<{ $hasImage: boolean }>`
   position: relative;
   width: 100%;
   height: 200px;
-  background: linear-gradient(
+  background: ${(props) =>
+    props.$hasImage
+      ? props.theme.colors.surface
+      : `linear-gradient(
     135deg,
-    ${(props) => props.theme.colors.primary}50,
-    ${(props) => props.theme.colors.secondary}50
-  );
+    ${props.theme.colors.primary}50,
+    ${props.theme.colors.secondary}50
+  )`};
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: ${(props) => props.theme.typography.fontSize.xlarge};
   font-weight: 700;
   color: ${(props) => props.theme.colors.text};
+  overflow: hidden;
+`;
+
+export const ProjectImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
 
 export const CardContent = styled.div`

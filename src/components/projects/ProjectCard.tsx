@@ -3,6 +3,7 @@ import type { Project } from '../../types';
 import {
   CardWrapper,
   ImageWrapper,
+  ProjectImage,
   CardContent,
   Title,
   Description,
@@ -16,10 +17,21 @@ interface ProjectCardProps {
   project: Project;
 }
 
+const DEFAULT_IMAGE = 'https://via.placeholder.com/200';
+
 export const ProjectCard = ({ project }: ProjectCardProps) => {
+  const imageUrl = project.image || DEFAULT_IMAGE;
+  const hasImage = !!project.image;
+
   return (
     <CardWrapper>
-      <ImageWrapper>{project.title}</ImageWrapper>
+      <ImageWrapper $hasImage={hasImage}>
+        {hasImage ? (
+          <ProjectImage src={imageUrl} alt={project.title} />
+        ) : (
+          project.title
+        )}
+      </ImageWrapper>
 
       <CardContent>
         <Title>{project.title}</Title>
