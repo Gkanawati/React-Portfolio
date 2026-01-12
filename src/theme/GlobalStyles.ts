@@ -1,6 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
+
   body {
     font-family: ${props => props.theme.typography.fontFamily};
     font-size: ${props => props.theme.typography.fontSize.medium};
@@ -8,6 +19,13 @@ export const GlobalStyles = createGlobalStyle`
     color: ${props => props.theme.colors.text};
     line-height: 1.6;
     transition: ${props => props.theme.transitions.default};
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  #root {
+    min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {

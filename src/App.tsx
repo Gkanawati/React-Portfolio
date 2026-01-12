@@ -4,12 +4,10 @@ import { Hero } from './components/sections/Hero';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
-import { GlobalStyles } from './theme/GlobalStyles';
 
 function App() {
   return (
     <>
-      <GlobalStyles />
       <Header />
       <main>
         <Hero />
