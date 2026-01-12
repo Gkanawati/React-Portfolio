@@ -7,20 +7,32 @@ import {
   BioText,
   SkillsCard,
   SkillsTitle,
+  LineSeparator,
   SkillsGrid,
   SkillItem,
 } from './styles/About.styles';
 
-const skills = [
-  'React',
-  'TypeScript',
+const backendSkills = [
+  'Java',
+  'Spring Boot',
   'Node.js',
-  'JavaScript',
-  'Git',
-  'Styled Components',
-  'REST APIs',
-  'MongoDB',
+  'PostgreSQL',
+  'RabbitMQ',
+  'CakePHP',
+  'Next.js',
+  'Ruby on Rails',
 ];
+
+const frontendSkills = [
+  'TypeScript',
+  'React',
+  'React Native',
+  'Next.js',
+  'WordPress',
+  'Figma',
+];
+
+const cloudDevOpsSkills = ['AWS SQS', 'AWS S3', 'API Gateway', 'Docker', 'Git'];
 
 export const About = () => {
   return (
@@ -43,8 +55,24 @@ export const About = () => {
 
           <SkillsCard>
             <SkillsTitle>Skills & Technologies</SkillsTitle>
+            <LineSeparator />
+            <SkillsTitle>Backend</SkillsTitle>
             <SkillsGrid>
-              {skills.map((skill) => (
+              {backendSkills.map((skill) => (
+                <SkillItem key={skill}>{skill}</SkillItem>
+              ))}
+            </SkillsGrid>
+            <br />
+            <SkillsTitle>Frontend</SkillsTitle>
+            <SkillsGrid>
+              {frontendSkills.map((skill) => (
+                <SkillItem key={skill}>{skill}</SkillItem>
+              ))}
+            </SkillsGrid>
+            <br />
+            <SkillsTitle>Cloud & DevOps</SkillsTitle>
+            <SkillsGrid>
+              {cloudDevOpsSkills.map((skill) => (
                 <SkillItem key={skill}>{skill}</SkillItem>
               ))}
             </SkillsGrid>

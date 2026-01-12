@@ -51,6 +51,13 @@ export const SkillsTitle = styled.h3`
   color: ${(props) => props.theme.colors.text};
 `;
 
+export const LineSeparator = styled.hr`
+  border: none;
+  height: 1px;
+  background: ${(props) => props.theme.colors.border};
+  margin: ${(props) => props.theme.spacing.md} 0;
+`;
+
 export const SkillsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
