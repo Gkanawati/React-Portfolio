@@ -15,6 +15,16 @@ import igniteUiStorybookCover from '../assets/images/ignite-ui-storybook-cover.p
 
 export const projects: Project[] = [
   {
+    id: '13',
+    title: 'Ignite UI Storybook',
+    description: 'descriptions.ignite-ui-storybook',
+    image: igniteUiStorybookCover,
+    tags: ['React', 'TypeScript', 'Storybook', 'Turborepo', 'Monorepo'],
+    demoUrl: 'https://gkanawati.github.io/ignite-ui-storybook',
+    codeUrl: 'https://github.com/Gkanawati/ignite-ui-storybook',
+    npmUrl: 'https://www.npmjs.com/package/@ignite-ui-gk/react',
+  },
+  {
     id: '1',
     title: 'FSW Barber',
     description: 'descriptions.fsw-barber',
@@ -116,15 +126,5 @@ export const projects: Project[] = [
     image: devPostCover,
     tags: ['React Native', 'TypeScript', 'Firebase', 'Expo'],
     codeUrl: 'https://github.com/Gkanawati/DevPost',
-  },
-  {
-    id: '13',
-    title: 'Ignite UI Storybook',
-    description: 'descriptions.ignite-ui-storybook',
-    image: igniteUiStorybookCover,
-    tags: ['React', 'TypeScript', 'Storybook', 'Turborepo', 'Monorepo'],
-    demoUrl: 'https://gkanawati.github.io/ignite-ui-storybook',
-    codeUrl: 'https://github.com/Gkanawati/ignite-ui-storybook',
-    npmUrl: 'https://www.npmjs.com/package/@ignite-ui-gk/react',
   },
 ];
