@@ -28,8 +28,12 @@ const frontendSkills = [
   'React',
   'React Native',
   'Next.js',
-  'WordPress',
   'Figma',
+  'Storybook',
+  'Tailwind CSS',
+  'Material-UI',
+  'Shadcn UI',
+  'WordPress',
 ];
 
 const cloudDevOpsSkills = ['AWS SQS', 'AWS S3', 'API Gateway', 'Docker', 'Git'];
@@ -41,7 +45,7 @@ export const About = () => {
     <Section id='about'>
       <Container>
         <SectionTitle>
-          <Trans i18nKey="about.title" ns="sections">
+          <Trans i18nKey='about.title' ns='sections'>
             About <span>Me</span>
           </Trans>
         </SectionTitle>
