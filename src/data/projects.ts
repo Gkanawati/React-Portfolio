@@ -11,6 +11,7 @@ import devBlogCover from '../assets/images/devblog-cover.jpg';
 import githubBlogCover from '../assets/images/github-blog-cover.png';
 import foodExplorerCover from '../assets/images/food-explorer-cover.png';
 import devPostCover from '../assets/images/devpost-cover.png';
+import igniteUiStorybookCover from '../assets/images/ignite-ui-storybook-cover.png';
 
 export const projects: Project[] = [
   {
@@ -115,5 +116,15 @@ export const projects: Project[] = [
     image: devPostCover,
     tags: ['React Native', 'TypeScript', 'Firebase', 'Expo'],
     codeUrl: 'https://github.com/Gkanawati/DevPost',
+  },
+  {
+    id: '13',
+    title: 'Ignite UI Storybook',
+    description: 'descriptions.ignite-ui-storybook',
+    image: igniteUiStorybookCover,
+    tags: ['React', 'TypeScript', 'Storybook', 'Turborepo', 'Monorepo'],
+    demoUrl: 'https://gkanawati.github.io/ignite-ui-storybook',
+    codeUrl: 'https://github.com/Gkanawati/ignite-ui-storybook',
+    npmUrl: 'https://www.npmjs.com/package/@ignite-ui-gk/react',
   },
 ];

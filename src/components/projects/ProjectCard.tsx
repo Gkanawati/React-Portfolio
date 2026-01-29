@@ -1,4 +1,4 @@
-import { GithubLogo, Globe } from '@phosphor-icons/react';
+import { GithubLogo, Globe, Package } from '@phosphor-icons/react';
 import { useTranslation } from 'react-i18next';
 import type { Project } from '../../types';
 import {
@@ -69,6 +69,16 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
             >
               <GithubLogo size={16} weight='duotone' />
               {t('buttons.code', { ns: 'common' })}
+            </Link>
+          )}
+          {project.npmUrl && (
+            <Link
+              href={project.npmUrl}
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Package size={16} weight='duotone' />
+              {t('buttons.npm', { ns: 'common' })}
             </Link>
           )}
         </Links>

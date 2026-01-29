@@ -11,6 +11,7 @@
     "devpost": "📸📱 Complete social network for mobile devices with real-time interactions, posts, likes and comments.",
     "github-blog": "Modern blog that leverages GitHub issues as content source, with search and post listing.",
     "food-explorer": "Complete digital menu for restaurants with frontend and backend, allowing navigation, search and dish orders.",
-    "devblog": "React Native app for tech posts and news using Strapi as headless CMS."
+    "devblog": "React Native app for tech posts and news using Strapi as headless CMS.",
+    "ignite-ui-storybook": "Design system with reusable React components documented with Storybook and published to npm, built as a monorepo with Turborepo."
   }
 }

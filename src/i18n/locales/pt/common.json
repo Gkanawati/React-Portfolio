@@ -10,7 +10,8 @@
     "viewProjects": "Ver Projetos",
     "contactMe": "Entre em Contato",
     "demo": "Demo",
-    "code": "Código"
+    "code": "Código",
+    "npm": "npm"
   },
   "theme": {
     "switchToDark": "Mudar para modo escuro",

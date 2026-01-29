@@ -10,7 +10,8 @@
     "viewProjects": "View Projects",
     "contactMe": "Contact Me",
     "demo": "Demo",
-    "code": "Code"
+    "code": "Code",
+    "npm": "npm"
   },
   "theme": {
     "switchToDark": "Switch to dark mode",

@@ -6,6 +6,7 @@ export interface Project {
   tags: string[];
   demoUrl?: string;
   codeUrl?: string;
+  npmUrl?: string;
 }
 
 export interface Skill {
