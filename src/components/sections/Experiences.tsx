@@ -24,6 +24,13 @@ interface Experience {
 
 const experiencesData: Experience[] = [
   {
+    year: '2026',
+    company: 'UBS',
+    role: 'experiences.ubs.role',
+    period: 'experiences.ubs.period',
+    descriptionKey: 'experiences.ubs.description',
+  },
+  {
     year: '2025',
     company: 'CashMe',
     role: 'experiences.cashme.role',

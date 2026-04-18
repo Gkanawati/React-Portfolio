@@ -6,7 +6,7 @@
   },
   "about": {
     "title": "Sobre <1>Mim</1>",
-    "bio": "Desenvolvedor full-stack especializado em desenvolvimento backend, atualmente trabalhando na CashMe com microsserviços, APIs de pagamento e integrações bancárias. Apaixonado por construir aplicações escaláveis e amigáveis usando tecnologias modernas. Acredito em \"Nunca Pare de Aprender\" e constantemente exploro novas ferramentas e frameworks para entregar soluções elegantes para problemas complexos. Quando não estou codando, você me encontrará contribuindo para projetos open-source e compartilhando conhecimento com a comunidade de desenvolvedores.",
+    "bio": "Desenvolvedor full-stack especializado em desenvolvimento web e mobile, atualmente trabalhando no UBS como Software Developer Trainee. Apaixonado por construir aplicações escaláveis e amigáveis usando tecnologias modernas. Acredito em \"Nunca Pare de Aprender\" e constantemente exploro novas ferramentas e frameworks para entregar soluções elegantes para problemas complexos.",
     "skillsTitle": "Habilidades & Tecnologias",
     "backend": "Backend",
     "frontend": "Frontend",
@@ -14,9 +14,14 @@
   },
   "experiences": {
     "title": "Minha <1>Experiência</1>",
+    "ubs": {
+      "role": "Software Developer Trainee",
+      "period": "Abr 2026 - Presente · 1 mês",
+      "description": "Desenvolvedor FullStack · Web & Mobile. Atuação em desenvolvimento de soluções full-stack no UBS, com foco em aplicações web e mobile."
+    },
     "cashme": {
       "role": "Desenvolvedor Back End",
-      "period": "Fev 2025 - Presente",
+      "period": "Fev 2025 - Mar 2026 · 1 ano 2 meses",
       "description": "Atuação no desenvolvimento de microsserviços escaláveis utilizando Java e Spring Boot, dentro do contexto de pós-venda de operações financeiras. Responsável por integrações críticas com APIs bancárias, serviços de assinatura eletrônica e reconhecimento facial, além da geração automatizada de contratos, relatórios e minutas jurídicas."
     },
     "sempher": {
