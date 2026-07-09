@@ -3,6 +3,7 @@ export interface Project {
   title: string;
   description: string;
   image: string;
+  imageFit?: 'cover' | 'contain';
   tags: string[];
   demoUrl?: string;
   codeUrl?: string;

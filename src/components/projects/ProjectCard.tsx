@@ -34,7 +34,11 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
     <CardWrapper>
       <ImageWrapper $hasImage={hasImage}>
         {hasImage ? (
-          <ProjectImage src={imageUrl} alt={project.title} />
+          <ProjectImage
+            src={imageUrl}
+            alt={project.title}
+            $fit={project.imageFit}
+          />
         ) : (
           project.title
         )}

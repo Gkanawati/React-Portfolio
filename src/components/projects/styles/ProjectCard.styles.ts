@@ -37,10 +37,10 @@ export const ImageWrapper = styled.div<{ $hasImage: boolean }>`
   overflow: hidden;
 `;
 
-export const ProjectImage = styled.img`
+export const ProjectImage = styled.img<{ $fit?: 'cover' | 'contain' }>`
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: ${(props) => props.$fit ?? 'cover'};
 `;
 
 export const CardContent = styled.div`

@@ -12,8 +12,17 @@ import githubBlogCover from '../assets/images/github-blog-cover.png';
 import foodExplorerCover from '../assets/images/food-explorer-cover.png';
 import devPostCover from '../assets/images/devpost-cover.png';
 import igniteUiStorybookCover from '../assets/images/ignite-ui-storybook-cover.png';
+import roteiraiCover from '../assets/images/roteirai-app.png';
 
 export const projects: Project[] = [
+  {
+    id: '14',
+    title: 'RoteirAí',
+    description: 'descriptions.roteirai',
+    image: roteiraiCover,
+    tags: ['AI', 'Travel Planner', 'Personalized Itineraries', 'SaaS'],
+    demoUrl: 'https://roteirai.app',
+  },
   {
     id: '13',
     title: 'Ignite UI Storybook',
@@ -29,7 +38,14 @@ export const projects: Project[] = [
     title: 'FSW Barber',
     description: 'descriptions.fsw-barber',
     image: fswBarberCover,
-    tags: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL', 'TailwindCSS', 'shadcn/ui'],
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'Prisma',
+      'PostgreSQL',
+      'TailwindCSS',
+      'shadcn/ui',
+    ],
     demoUrl: 'https://fsw-barber-gkanawati.vercel.app',
     codeUrl: 'https://github.com/Gkanawati/fsw-barber',
   },

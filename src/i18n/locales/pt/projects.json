@@ -12,6 +12,7 @@
     "github-blog": "Blog moderno que aproveita as issues do GitHub como fonte de conteúdo, com busca e listagem de posts.",
     "food-explorer": "Menu digital completo para restaurantes com frontend e backend, permitindo navegação, busca e pedidos de pratos.",
     "devblog": "Aplicativo React Native para posts e notícias sobre tecnologia usando Strapi como CMS headless.",
-    "ignite-ui-storybook": "Design system com componentes React reutilizáveis documentados com Storybook e publicados no npm, construído como monorepo com Turborepo."
+    "ignite-ui-storybook": "Design system com componentes React reutilizáveis documentados com Storybook e publicados no npm, construído como monorepo com Turborepo.",
+    "roteirai": "Planejador de viagens com IA que ajuda pessoas a criar roteiros personalizados, descobrir ideias de viagem e organizar cada jornada em um só lugar."
   }
 }
